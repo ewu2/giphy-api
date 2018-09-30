@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gifs from the Seoul.</title>
+
+	<!--Added link to Reset Style-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Added link to CSS Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-3">gifs from the Seoul.</h1>
+            <p class="lead">(...right in the heart of South Korea.)</p>
+
+        <form id="gif-form">
+            <label for="topic-input">who do you stan?</label><br>
+            <input type="text" id="topic-input"><br>
+            <input id="add-topic" class="btn btn-default" type="submit" value="Submit">
+        </form>
+
+        <br>
+
+        <div class="text-center">
+                <div class="buttons-view"></div>
+        </div>
+    </div>
+</div>
+	
+<div class="container main-content">
+	<div class="row">
+		<div class="container-fluid">
+			<div class="gifs-view"></div>
+		</div>
+	</div>
+</div>	
+
+
+	<!-- Added link to Javascript-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>	
+</body>
+</html>
